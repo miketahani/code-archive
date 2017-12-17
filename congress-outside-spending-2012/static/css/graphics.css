@@ -1,0 +1,92 @@
+h3 {
+    font-size:16px;
+}
+#social_media {
+    margin-top:4px;
+}
+.clear_div {
+    clear:both;
+    height:0px;
+}
+#map_data.meta_footer {
+    margin-top:20px;
+    margin-bottom:15px;
+}
+#map_data.meta_footer div {
+    margin-bottom:3px;
+}
+div.description p {
+    margin-bottom: 8px;
+    text-align: left;
+    line-height: 140%;
+}
+.clear_special {
+    clear:both;
+    width:100%;
+    height:1px;
+}
+.additional_text {
+  margin-bottom: 8px;
+  font-style: italic;
+  font-size: 12px;
+}
+p.related_items {
+    font-size:14px !important;
+}
+#kicker {letter-spacing: 0.03em; font-size:13px; margin:0 0 5px 0; text-transform:uppercase; color:black; display:block;}
+#sources {margin-bottom:5px; font-size:12px;}
+#credits {margin-bottom:5px; font-size:12px;}
+/* More link */
+a.roundbox {border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;}
+a.boxshadow {box-shadow: 0 1px 3px rgba(0,0,0,0.65); -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.65); -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.65);}
+a#loadlink { background: #F2F1EF url(http://graphics.latimes.com/media/img/button_bg_light.png?q=A) repeat-x; display: block; padding: 10px 10px; text-align: center; color: #111; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); font-weight: bold; font-size: 16px; margin: 0px 0 5px 0; border: 1px solid #e3e3e3; }
+a#loadlink:hover {text-decoration:none; cursor:pointer; background: #EEE url(http://graphics.latimes.com/media/img/button_bg_dark.png?q=A) repeat-x;}
+/* Index page list */
+table.documentlist tr {
+    padding-top: 10px;
+    background-image: none;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    cursor: default;
+    background-position: initial initial;
+    background-repeat: initial initial; 
+}
+table td.documentdescription {
+    line-height:160%;
+    padding:20px 20px 20px 10px;
+    vertical-align:top;
+    width:90%;
+}
+table td.documentthumb {
+    vertical-align:bottom;
+    padding-right:10px;
+}
+table td.documentthumb img {
+    width:150px;
+    border:1px solid #ddd;
+    margin: 15px 0;
+}
+#document { clear: both; width: 100%; height:1000px;}
+/* A smaller datagrid table for when the right rail is intact */
+table.small-datagrid{width:610px;margin-left:auto;margin-right:auto;border-collapse:collapse;margin-top:20px;}
+table.small-datagrid thead th{text-align:left;color:black;font-weight:bold;font-size:14px;padding-top:4px;padding-bottom:4px;border-top:2px solid black;border-bottom:2px solid black;padding-left:10px;}
+table.small-datagrid thead th a{color:white;text-decoration:none;font-size:1.0em;background-repeat:no-repeat;background-position:center right;padding-right:15px;}
+table.small-datagrid thead th.over{background-color:black;cursor:pointer;color:white;}
+table.small-datagrid tbody th{font-weight:bold;}
+table.small-datagrid tbody td,table.datagrid tbody th{text-align:left;border-bottom:1px dashed black;padding-top:10px;padding-bottom:10px;padding-left:12px;vertical-align:top;color:black;}
+table.small-datagrid tbody td a{font-weight:bold;}
+table.small-datagrid tbody tr.alternate td,table.datagrid tbody tr.alternate th{background-color:#f1f1f1;}
+table.small-datagrid tfoot td,table.datagrid tfoot th{background-color:#FFFEE3;color:#4B4545;padding:.5em;font-weight:bold;border-top:2px solid #4B4545;}
+table.small-datagrid tfoot th{text-align:left;}
+table.small-datagrid tfoot td{}
+div#similar h5 { text-transform:uppercase; font-size:13px; }
+div#similar {float:right; width:280px; border:1px solid #BCB9B9; padding:10px; margin: 0 0 10px 12px; line-height: 20px;}
+#electionHeader { width: 980px; border-bottom: 1px dotted #000000; height: 32px; margin-bottom: 15px; margin-top: 16px }
+#electionHeader a { font-family: arial; font-size: 14px; }
+#electionHeader div { float: left;}
+#electionHeader ul { margin: 0px; float: right;  }
+#electionHeader ul li { float: left; padding-right: 10px; position: relative; top: 9px; }
+#electionHeader ul li span { float: left; padding-right: 2px;}
+#electionHeader ul li img {  float:right; *float: none; padding-right: 12px; width: 12px; height: 15px;}
